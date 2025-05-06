@@ -8,3 +8,5 @@ aula de introdução ao **javascript**
 - estrutura de repetição
 - vetor
 - interação com Dom
+
+Joel Boscolo
