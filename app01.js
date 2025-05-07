@@ -8,6 +8,11 @@ let nome ="joel"
 let idade = 37
 
 // Console e Debug
+console.log(nome)
+console.log(idade)
+nome = "renata"
+idade = "25"
+console.log (nome,idade)
 
 // Operadores
 //     Operador Atribuição
