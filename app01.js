@@ -1,10 +1,10 @@
 // Estou começando a estudar programação . Estou começando com a linguagem javascript. Elenque os principais tópoicos que um inciante precisa estudar sobre javascript.
- 
+
 // Boas práticas
 // Case sensitive
 // Sintaxe básica e comentário
 // Declaração de variáveis(var, let, const)
-let nome ="joel"
+let nome = "joel"
 let idade = 37
 
 // Console e Debug
@@ -12,29 +12,53 @@ console.log(nome)
 console.log(idade)
 nome = "renata"
 idade = "25"
-console.log (nome,idade)
+console.log(nome, idade)
 
 //tipos de dados
 //text == string
 let cidade = "americana"
-console.log(typeof americana)
+
 //númerico == number
 let salário = 1500.35
-console.log(typeof salário)
+
 //boleano == boolean
 let fumante = false
 console.log(typeof cidade)
-
+console.log(typeof salário)
+console.log(typeof fumante)
 
 // Operadores
-//     Operador Atribuição
-//     Operadores aritméticos
-//     Operadores relacionais
-//     Operadores lógicos
+//     Operador Atribuição ( = )
+//     Operadores aritméticos (+ ,- ,/ ,* )
+console.log(10 + 15)
+let n1 = 10
+let n2 = 5
+console.log(n1 + n2) // soma
+console.log(n1 - n2) // subtração
+console.log(n1 * n2) // multiplicação
+console.log(n1 / n2) // divisão
+console.log(n1 % 3) //módulos(resto da divisão)
+
+//     Operadores relacionais (> ,< ,>= ,<= ,!= , ==)
+console.log(n1 == n2)//igualdade
+console.log(n1 != n2) //diferente
+console.log(n1 > n2) //maior
+console.log(10 < 10) //menor
+console.log(10 <= 10) //menor igual
+console.log(150 >= 175) //maior igual
+
+//     Operadores lógicos (! , && , || )
+console.log(!10 > 2) //não
+console.log(! false) // o ponto de esclamação( ! )sempre vai dar resposta contraria 
+
+console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
+
+console.log(10 < 2 || 100 == 150 || 57 == 57) // ou - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando todas as verificações forem falsas
+
 // Estrutura
 //     Estrutura de controle/decisão
 //     Laços de repetição
-// Arrays 
+// Arrays
 // Funções básicas
 // Escopo
 
@@ -52,4 +76,3 @@ console.log(typeof cidade)
 // funções modernas (arrow functions) ****
 
 // Spread e REST  ************
- 
