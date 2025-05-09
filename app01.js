@@ -82,22 +82,44 @@ if (idadedocandidato >= 18) {
 } else {
     console.log("volte mais tarde")
 }
-let salario = 3000
-if (salario = 5000) {
-    console.log("salário ok")
-} else {
-    console.log("precisa de aumento ")
-}
+
 //desafio
 //faça um código que verifique se o salário do funcionário é maior que 5000,se for mostre a mensagem "salário ok" se não mostre a mensagem "precisa de um aumento de x reais"
+
+
+let salariofunc = 3000
+const salariobase = 5000
 if (salariofunc > 5000) {
     console.log("salário ok")
 } else {
-    console.log("precisa de um aumento de" + (5000 - salariofunc) + "reais")
+    console.log("precisa de um aumento de " + (5000 - salariofunc) + " reais")
+}
+
+//     Laços de repetição
+// quero mostrar 10 veses a mensagem "senac americana"
+let controle = 1
+while (controle <= 10) {
+    console.log("senac ameicana")
+    controle = controle + 1
+}
+
+controle = 1            // definição da variavel de controle
+while (controle <= 100) {  // cpndição
+    console.log(controle)
+    controle = controle + 2 // incremento
 }
 
 
-//     Laços de repetição
+// mostrar 10 veses "senac americana"
+for (let i = 1; i <= 10; i = i + 1) {
+    console.log("senac americana")
+}
+
+for (let i = 1; i <= 50; i = i + 1) {
+    console.log(i)
+}
+
+
 // Arrays
 // Funções básicas
 // Escopo
