@@ -62,15 +62,41 @@ let precodesconto = 0
 
 //faça um código que acrecente 17% ao preço e imprima 
 precoacrescimo = preco + (preco * 0.17)
-console.log("preço com acrécimo: "+ precoacrescimo.toFixed(2))
+console.log("preço com acrécimo: " + precoacrescimo.toFixed(2))
 
 // faça um código que desconte 7% do preço e imprima 
 precodesconto = preco - preco * 0.07
-console.log("preço com desconto: "+ precodesconto.toFixed(2))
+console.log("preço com desconto: " + precodesconto.toFixed(2))
 
 
 // Estrutura
 //     Estrutura de controle/decisão
+if (10 > 5) {
+    console.log("10 é maior que 5")
+} else {
+    console.log("10 é menor que 100")
+}
+let idadedocandidato = 20
+if (idadedocandidato >= 18) {
+    console.log("pode dirigir")
+} else {
+    console.log("volte mais tarde")
+}
+let salario = 3000
+if (salario = 5000) {
+    console.log("salário ok")
+} else {
+    console.log("precisa de aumento ")
+}
+//desafio
+//faça um código que verifique se o salário do funcionário é maior que 5000,se for mostre a mensagem "salário ok" se não mostre a mensagem "precisa de um aumento de x reais"
+if (salariofunc > 5000) {
+    console.log("salário ok")
+} else {
+    console.log("precisa de um aumento de" + (5000 - salariofunc) + "reais")
+}
+
+
 //     Laços de repetição
 // Arrays
 // Funções básicas
